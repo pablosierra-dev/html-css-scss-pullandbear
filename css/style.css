@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  height: 100px;
+  background-color: white;
+  padding: 30px 20px 0px 20px;
+}
+.header-elements {
+  display: flex;
+  justify-content: space-between;
+  padding: 20Apx;
+}
+.left-element {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.gnr {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+}
+.mujer {
+  font-size: 10px;
+  font-weight: 700;
+}
+.mujer:hover {
+  color: rgb(132, 132, 132);
+  scale: 1.05;
+  transition: all 0.3s ease;
+}
+.separate-icon {
+  font-size: 10px;
+  font-weight: 700;
+  color: antiquewhite;
+}
+.hombre {
+  font-size: 10px;
+  font-weight: 700;
+}
+.hombre:hover {
+  color: rgb(132, 132, 132);
+  scale: 1.05;
+  transition: all 0.3s ease;
+}
+.drop-list {
+  font-size: 12px;
+  position: fixed;
+  z-index: 100;
+}
+.drop-list li:hover {
+  scale: 1.05;
+  transition: all 0.3s ease;
+}
+.drop-list li {
+  list-style: none;
+  margin-top: 5px;
+}
+.drop-list a {
+  text-decoration: none;
+  color: black;
+}
+.drop-list a:hover {
+  color: rgb(132, 132, 132);
+}
+#promociones {
+  color: orange;
+  font-weight: 900;
+}
+#ropa {
+  font-weight: 900;
+}
+.center-element {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -10px;
+}
+.center-element-nav {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  font-size: 12px;
+}
+.center-element-nav a {
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+}
+.center-element-nav-p {
+  font-weight: 900;
+}
+.plus {
+  font-size: 10;
+}
+.right-element {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form {
+  display: flex;
+  gap: 10px;
+}
+.formdesign {
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.searchbar {
+  color: black;
+  width: 30px;
+  height: 2px;
+}
+.personicon {
+  width: 20px;
+}
+.shopping {
+  width: 14px;
+  margin-top: 3px;
+}
+.searchicon {
+  width: 8px;
+}
+.searchp {
+  font-size: 8px;
+}
+.searchanim {
+  display: flex;
+  gap: 4px;
+  position: absolute;
+  top: 33px;
+}
+.searchanim:hover {
+  right: 213px;
+  transition: all 0.5s ease;
+}
+.filters {
+  display: flex;
+  gap: 3px;
+}
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.headbtn {
+  font-size: 6.5px;
+  margin-top: -10px;
+  border-left: 8px solid rgb(245, 245, 245);
+  border-right: 8px solid rgb(245, 245, 245);
+  border-top: 3px solid rgb(245, 245, 245);
+  border-bottom: 3px solid rgb(245, 245, 245);
+  border-radius: 4px;
+  background-color: rgb(245, 245, 245);
+}
+.headbtn:hover {
+  border-left: 8px solid orange;
+  border-right: 8px solid orange;
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  border-radius: 4px;
+  background-color: orange;
+  scale: 1.05;
+  transition: all 0.3s ease;
+}
+.gallerybox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.target {
+  text-align: center;
+  width: 200px;
+  background-color: white;
+  margin: 15px;
+}
+.image {
+  width: 100%;
+}
+.section3form {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+.line1 {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+}
+.section3titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  list-style: none;
+}
+.line2 {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  margin-top: 30px;
+}
+.section4contact {
+  height: 130px;
+  background-color: white;
+  width: 100%;
+}
+.section4contactelements {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.line3 {
+  width: 100%;
+  margin-top: 20px;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+}
+.footer {
+  height: 300px;
+  width: 100%;
+  background-color: white;
+}
+.footerelements {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.line4 {
+  width: 100%;
+  color: grey;
+  margin-top: 40px;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+}
+.clothetittle {
+  font-size: 12px;
+  font-weight: 300;
+}
+.price {
+  font-size: 9px;
+  font-weight: 700;
+}
+.section3title2 {
+  font-weight: 100;
+}
+.email {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 550px;
+  outline: none;
+}
+.contacttitle {
+  font-size: 12px;
+}
+.phoneicon {
+  width: 15px;
+}
+.number {
+  font-size: 11px;
+  color: rgb(108, 218, 145);
+}
+.contact i {
+  font-size: 12px;
+}
+.contactnav:hover {
+  color: rgb(117, 117, 117);
+}
+.number:hover {
+  color: orange;
+}
+.par {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.contact {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  font-size: 10px;
+  gap: 8px;
+}
+.footetitle {
+  font-size: 9px;
+}
+.footerli {
+  font-size: 9px;
+  list-style: none;
+  margin-top: 20px;
+  gap: 10px;
+}
+.footerli li {
+  margin-top: 5px;
+}
+.footer1 {
+  padding: 10px;
+}
+.socialicon {
+  width: 10px;
+  margin-right: 2px;
+}
+.pay {
+  width: 10px;
+  margin-right: 2px;
+}
+.footerli li:hover {
+  color: rgb(117, 117, 117);
+}
+.emailformtitle {
+  font-size: 12px;
+  margin-bottom: 17px;
+}
+.target:hover{
+    scale: 1.05;
+    transition: all 0.3s ease;
+}
